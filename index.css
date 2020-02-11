@@ -2,18 +2,23 @@
     margin: 0;
     padding: 0;
 }
-ul {
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+}
+
+.nav {
     list-style: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
 }
-li {
+.navrow {
     float: left;   
 }
 
-li a {
+.navrow a {
     display: block;
     color: white;
     text-align: center;
@@ -25,9 +30,26 @@ li a:hover {
     color: rgb(95, 156, 247);
 }
 
-h1 {
-    color: red;
+div h1 {
+    padding-top: .5em;
+    text-align: center;
 }
+.me {
+    margin-top: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 2%;
+}
+.intro {
+    font-size: 1.1em;
+    text-align: center;
+}
+aside ul li {
+    padding: .3em;
+}
+
 .current {
     background-color: rgb(174, 187, 187);
 }
@@ -39,4 +61,5 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
+    font-size: 1.2em;
 }
