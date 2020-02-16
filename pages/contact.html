@@ -30,14 +30,14 @@
                 <label for="">Name: </label>
                 <input type="text" placeholder="Bill Bob" required>
                 <br>
-                <label for="">Email: </label>
+                <label for="email">Email: </label>
                 <input type="email" placeholder="billbob@yahoo.com" required>
                 <br>
                 <label for="who">Who do represent?</label>
-                <select>
-                    <option>Myself</option>
-                    <option>A Company</option>
-                    <option>Other</option>
+                <select id="who">
+                    <option value="myself">Myself</option>
+                    <option value="company">A Company</option>
+                    <option value="other">Other</option>
                 </select>
                 <br>
                 <label>Gender: </label>
@@ -48,25 +48,37 @@
                 <label for="other">Other</label>
                 <input type="radio" name="gender" id="other" value="other" >
                 <br>
-                <label>Education: </label>
-                <select>
-                    <option>High school</option>
-                    <option>Some College</option>
-                    <option>Asociates</option>
-                    <option>Bachelors</option>
-                    <options>Masters</options>
-                    <option>PHD</option>
+                <label for="interest">Interested in: </label>
+                <label for="interest">CS</label>
+                <input type="checkbox" name="interest" id="CS" value="CS">
+                <label for="interest">Other</label>
+                <input type="checkbox" name="interest" id="other" value="Other">
+                <br>
+                <label for="edu">Education: </label>
+                <select id="edu">
+                    <option value="high_school">High school</option>
+                    <option value="some_college">Some College</option>
+                    <option value="asociates">Asociates</option>
+                    <option value="bachelors">Bachelors</option>
+                    <option value="masters">Masters</options>
+                    <option value="phd">PHD</option>
                 </select>
                 <br>
-                <label for="">Reason for contact: </label>
+                <label for="reason">Reason for contact: </label>
                 <br>
-                <textarea name="text" id="" cols="30" rows="10"></textarea>
+                <textarea name="text" id="reason" cols="30" rows="10"></textarea>
                 <br>
+                <label for="exp">How was your experience? (0-5)</label>
+                <br>
+                <input type="range" name="exp" id="exp" min="0" max="5">
+                <br> 
                 <input type="submit" id="submit" value="Submit">
                 <input type="reset" id="reset" value="Reset">
             </fieldset>
         </form>
     </div>  
+    <br>
 </body>
+<br>
 <footer><p>Website created by Luis Garzon</p></footer>
 </html>
