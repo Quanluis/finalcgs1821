@@ -24,14 +24,39 @@
 <body>
     <div><h1>Lets talk</h1></div>
     <div>
-        <form>
+        <form action="submission_page.html" method="get" id="web_request_form">
             <fieldset>
                 <legend><strong>Info</strong></legend>
                 <label for="">Name: </label>
-                <input type="text">
+                <input type="text" placeholder="Bill Bob" required>
                 <br>
                 <label for="">Email: </label>
-                <input type="email">
+                <input type="email" placeholder="billbob@yahoo.com" required>
+                <br>
+                <label for="who">Who do represent?</label>
+                <select>
+                    <option>Myself</option>
+                    <option>A Company</option>
+                    <option>Other</option>
+                </select>
+                <br>
+                <label>Gender: </label>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female" value="females">
+                <label for="other">Other</label>
+                <input type="radio" name="gender" id="other" value="other" >
+                <br>
+                <label>Education: </label>
+                <select>
+                    <option>High school</option>
+                    <option>Some College</option>
+                    <option>Asociates</option>
+                    <option>Bachelors</option>
+                    <options>Masters</options>
+                    <option>PHD</option>
+                </select>
                 <br>
                 <label for="">Reason for contact: </label>
                 <br>

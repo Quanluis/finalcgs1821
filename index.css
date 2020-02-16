@@ -100,5 +100,11 @@ textarea {
     border-radius: .3em;
     box-sizing: border-box;
 }
-
+select {
+    padding: .5em;
+    margin: 1em;
+    border: 1px solid #ccc;
+    border-radius: .3em;
+    box-sizing: border-box;
+}
 
