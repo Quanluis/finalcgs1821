@@ -30,7 +30,7 @@ li a:hover {
 }
 
 div h1 {
-    padding-top: .5em;
+    /* padding-top: .2em; */
     text-align: center;
 }
 .me {
@@ -43,7 +43,10 @@ div h1 {
 }
 .intro {
     font-size: 1.1em;
+    width: 50%;
     text-align: center;
+    margin: auto;
+    padding: auto;
 }
 aside ul li {
     padding: .3em;
@@ -51,6 +54,23 @@ aside ul li {
 
 .current {
     background-color: rgb(174, 187, 187);
+}
+
+/* Column */ 
+
+.column {
+    padding-top: 3em;
+    float: left;
+    margin: auto;
+    padding: auto;
+    width: 50%;
+    
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 footer {
