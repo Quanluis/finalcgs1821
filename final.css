@@ -83,6 +83,14 @@ footer {
     font-size: 1.2em;
 }
 
+/* link list */
+
+.list li {
+    font-size: 1.2em;
+    padding: .2em;
+    list-style-type: none;
+}
+
 /* Social media links */
 
 .social {
