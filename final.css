@@ -75,6 +75,27 @@ div embed {
     align-items: center;
 }
 
+/* About page */ 
+
+div h2 {
+    padding-top: 1em;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: auto;
+}
+
+.flower {
+    height: 15em;
+    width: 22em;
+    margin: auto;
+    padding: auto;
+    display: block;
+    margin-top: 3em;
+    border: 2px solid purple;
+    border-radius: 3%;
+}
+
 /* Column */ 
 
 .column {
